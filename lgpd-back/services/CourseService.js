@@ -1,4 +1,4 @@
-import courseServiceRepository from "../repositories/CourseRepository.js";
+import courseServiceRepository from "../repositories/CourseRepository.js"
 
 const service = {
 

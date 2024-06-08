@@ -1,4 +1,4 @@
-import evalutationServiceRepository from "../repositories/EvaluationRepository.js";
+import evalutationServiceRepository from "../repositories/EvaluationRepository.js"
 
 const service = {
 
