@@ -1,4 +1,4 @@
-import Teacher form "../models/TeacherModel.js";
+import Teacher form "../models/Teacher.js";
 
 const factory = {
 

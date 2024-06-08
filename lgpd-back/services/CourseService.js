@@ -1,7 +1,7 @@
-import courseServiceRepository from "../repositories/CourseRepository.js"
+import courseRepository from "../repositories/CourseRepository.js"
 
 const service = {
 
 }
 
-export defautl service;
+export default service;

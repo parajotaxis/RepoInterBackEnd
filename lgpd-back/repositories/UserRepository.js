@@ -1,5 +1,4 @@
-import User form "../models/User
-.js";
+import User form "../models/User.js";
 
 const factory = {
 

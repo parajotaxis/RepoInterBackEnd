@@ -1,4 +1,4 @@
-import Evaluation form "../models/EvaluationModel.js";
+import Evaluation form "../models/Evaluation.js";
 
 const factory = {
 

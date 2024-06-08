@@ -1,7 +1,7 @@
-import evalutationServiceRepository from "../repositories/EvaluationRepository.js"
+import evalutationRepository from "../repositories/EvaluationRepository.js"
 
 const service = {
 
 }
 
-export defautl service;
+export default service;
