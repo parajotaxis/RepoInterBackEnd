@@ -8,7 +8,7 @@ import evaluationController from "./EvalauationController";
 
 router.get("/", function(req, res){
     console.log("oi!");
-    res.status(200).json({message: "oi!"});
+    res.status(200).json({message: "oi! sucesso!"});
 });
 
 router.use("/", userController);
