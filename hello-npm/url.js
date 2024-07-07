@@ -5,6 +5,7 @@ import { readFile } from 'fs';
 createServer(function (req, res) {
         const q = parse(req.url, true);
         const filename = "." + q.pathname;
+        console.log(filename);
 
         readFile(filename, function (err, data) {
             if (err) {
