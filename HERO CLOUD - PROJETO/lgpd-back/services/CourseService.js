@@ -28,4 +28,4 @@ const service = {
     updateCourseById
 }
 
-export default service;;
+export default service;
