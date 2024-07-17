@@ -1,6 +1,6 @@
 import Sequelize from 'sequelize';
 
-const sequelize = new Sequelize(
+const sequelize = new Sequelize (
     'lgpd-database',
     'postgres',
     'postgres',
@@ -9,8 +9,9 @@ const sequelize = new Sequelize(
         dialect: 'postgres',
         port: 5432,
         define: {
-            timestamps: true
+            timestamps: false
         }
     }
+);
 
-)
+export default sequelize;
