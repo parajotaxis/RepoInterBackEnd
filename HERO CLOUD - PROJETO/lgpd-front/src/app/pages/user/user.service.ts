@@ -47,6 +47,7 @@ export class UserService {
       return (Promise.reject(this.normalizeError(error)));
     }
   }
+  
 
   public async put<T>(options: GetOptions): Promise<T> {
     let config = {
